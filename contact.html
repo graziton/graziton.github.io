@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects</title>
+  <title>Contact Me</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
-    <h1>Projects</h1>
+    <h1>Contact Me</h1>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -20,20 +20,56 @@
   </header>
 
   <main>
-    <section>
-      <h2>Project Showcase</h2>
-      <p>Here you can add details about your academic or personal projects. For example:</p>
-      <ul>
-        <li><strong>Project 1:</strong> A brief description with technologies used.</li>
-        <li><strong>Project 2:</strong> A brief description with technologies used.</li>
-      </ul>
+    <section id="contact-section">
+      <!-- Introduction -->
+      <h2>Get in Touch</h2>
+      <p>I’m always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
+
+      <!-- Contact Details -->
+      <div id="contact-details">
+        <h3>Contact Information</h3>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:samarthsharma1703@gmail.com">samarthsharma1703@gmail.com</a></li>
+          <li><strong>Phone:</strong> +91 7581852992</li>
+        </ul>
+      </div>
+
+      <!-- Social Media Links -->
+      <div id="social-profiles">
+        <h3>Connect With Me</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/samarth-sharma-76246422b" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/graziton" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Form -->
+      <div id="contact-form">
+        <h3>Send Me a Message</h3>
+        <!-- Formspree form handler -->
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <!-- Replace YOUR_FORM_ID with your actual Formspree ID -->
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    <p>&copy; 2025 Samarth Sharma. All rights reserved.</p>
   </footer>
 
+  <!-- JavaScript -->
   <script src="js/script.js"></script>
 </body>
 </html>
