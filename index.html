@@ -2,35 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Samarth Sharma Portfolio - B.Tech Computer Science student at IIT Ropar">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samarth Sharma - Portfolio</title>
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>Samarth Sharma</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <header id="header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Samarth Sharma</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <!-- Hero Section -->
     <section id="hero">
-      <h2>Hello, I'm Samarth Sharma</h2>
-      <p>A B.Tech Computer Science student at IIT Ropar passionate about solving problems and building innovative solutions.</p>
-      <p>Explore my journey, projects, and skills below!</p>
-      <img src="assets/image.jpg" alt="Samarth Sharma" loading="lazy">
+      <div class="hero-content">
+        <h2>Hello, I'm Samarth Sharma</h2>
+        <p>A B.Tech Computer Science student at IIT Ropar, passionate about solving problems and creating innovative solutions.</p>
+        <a href="about.html" class="btn">Learn More About Me &rarr;</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/your-photo.jpg" alt="Samarth Sharma" loading="lazy">
+      </div>
     </section>
 
     <!-- Highlights Section -->
-    <section id="highlights">
-      <h3>Highlights:</h3>
+    <section id="highlights" class="container">
+      <h3>Highlights</h3>
       <ul>
         <li>Data Analyst Intern at Edulyt India</li>
         <li>JavaScript Developer Intern at Logical Soft Tech Pvt. Ltd.</li>
@@ -38,19 +47,20 @@
         <li>Skilled in Python, JavaScript, C++, Data Structures, and more</li>
       </ul>
     </section>
-
-    <!-- Call to Action -->
-    <section id="cta">
-      <a href="about.html" class="btn">Learn More About Me →</a>
-    </section>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Samarth Sharma. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 Samarth Sharma. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </footer>
-
-  <!-- JavaScript -->
+  
   <script src="js/script.js"></script>
 </body>
 </html>

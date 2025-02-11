@@ -2,65 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Projects by Samarth Sharma">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Projects - Samarth Sharma</title>
+  <title>Projects - Samarth Sharma</title>
+  <!-- Font Awesome for icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <h1>My Projects</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+  <header id="header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Samarth Sharma</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-
-  <main id="projects-section">
-    <!-- Project 1 -->
-    <section class="project">
-      <h2>Interactive Particle Simulation with Visual Effects</h2>
-      <p>This project explores physics and coding in Python by simulating charged particles' interactions based on Coulomb's laws. It's an interactive simulation with visual effects.</p>
-      <ul>
-        <li><strong>Skills Used:</strong> Python, Physics</li>
+  
+  <main id="projects-section" class="container">
+    <h2>My Projects</h2>
+    
+    <div class="project-card">
+      <img src="assets/project1.jpg" alt="Interactive Particle Simulation">
+      <h3>Interactive Particle Simulation with Visual Effects</h3>
+      <p>An interactive Python simulation showcasing how charged particles interact based on Coulomb's laws.</p>
+      <ul class="project-details">
+        <li><strong>Skills:</strong> Python, Physics</li>
         <li><strong>Duration:</strong> Nov 2024 - Dec 2024</li>
         <li><strong>GitHub:</strong> <a href="https://github.com/graziton/ParticleSimulator" target="_blank">View Repository</a></li>
       </ul>
-    </section>
-
-    <!-- Project 2 -->
-    <section class="project">
-      <h2>Plagiarism Detection Using Trie and N-Gram Analysis</h2>
-      <p>Developed a plagiarism detection system to identify similarities between text documents using advanced data structures like Trie and algorithms for n-gram analysis.</p>
-      <ul>
-        <li><strong>Skills Used:</strong> C, Data Structures, Algorithm Design, Text Processing</li>
+    </div>
+    
+    <div class="project-card">
+      <img src="assets/project2.jpg" alt="Plagiarism Detection">
+      <h3>Plagiarism Detection Using Trie and N-Gram Analysis</h3>
+      <p>A detection system developed to identify textual similarities using Trie data structures and n-gram analysis.</p>
+      <ul class="project-details">
+        <li><strong>Skills:</strong> C, Data Structures, Algorithm Design, Text Processing</li>
         <li><strong>Duration:</strong> Oct 2024 - Nov 2024</li>
         <li><strong>GitHub:</strong> <a href="https://github.com/graziton/PlagiarismDetection" target="_blank">View Repository</a></li>
       </ul>
-    </section>
-
-    <!-- Project 3 -->
-    <section class="project">
-      <h2>Customer Spending Analysis and Insights using Python</h2>
-      <p>Analyzed customer spending trends using real-world datasets. Delivered insights such as identifying top spenders, age group analysis, and profitability trends.</p>
-      <ul>
-        <li><strong>Skills Used:</strong> Python, Pandas, Data Analysis, Microsoft Excel</li>
-        <li><strong>Duration:</strong> Jun 2024 - Oct 2024 (Internship at Edulyt India)</li>
+    </div>
+    
+    <div class="project-card">
+      <img src="assets/project3.jpg" alt="Customer Spending Analysis">
+      <h3>Customer Spending Analysis and Insights using Python</h3>
+      <p>An analysis project that examines customer spending trends and generates actionable financial insights using Python libraries like Pandas.</p>
+      <ul class="project-details">
+        <li><strong>Skills:</strong> Python, Pandas, Data Analysis, Microsoft Excel</li>
+        <li><strong>Duration:</strong> Jun 2024 - Oct 2024</li>
       </ul>
-    </section>
-
+    </div>
+    
   </main>
-
-  <!-- Footer -->
+  
   <footer>
-    <p>&copy; 2025 Samarth Sharma. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2025 Samarth Sharma. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
   </footer>
-
-  <!-- JavaScript -->
+  
   <script src="js/script.js"></script>
-
 </body>
 </html>
