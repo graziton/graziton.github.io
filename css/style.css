@@ -112,8 +112,9 @@ header nav ul li a:hover {
 }
 
 .hero-image img {
-  max-width: 100%;
-  border-radius: 10px;
+  width: 30%; /* Reduces the size of the image */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Optional rounded corners */
 }
 
 /* Highlights Section */
